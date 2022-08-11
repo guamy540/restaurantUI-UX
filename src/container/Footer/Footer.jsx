@@ -1,6 +1,6 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
-
+import {motion} from 'framer-motion'
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import {GiSpoon} from 'react-icons/gi'
@@ -8,6 +8,7 @@ import './Footer.css';
 
 const Footer = () => (
   <div className="app__footer section__padding" id="login">
+    
     <FooterOverlay />
     <Newsletter />
 
